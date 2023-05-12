@@ -46,3 +46,8 @@ def gimme(input_array)
   index = input_array.index(sortedArr[1])           #Finds and saves the index of the middle number
   return index                                      #Returns index
 end
+
+## Q6 ##
+def name_shuffler(str)
+  str.split(" ").reverse.join(" ")
+end

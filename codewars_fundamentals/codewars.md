@@ -53,3 +53,11 @@ Write a function that returns a string in which firstname is swapped with last n
 Example(Input --> Output)
 
 "john McClane" --> "McClane john"
+
+## Q7 ##
+
+In this kata you will create a function that takes in a list and returns a list with the reverse order.
+
+Examples (Input -> Output)
+* [1, 2, 3, 4]  -> [4, 3, 2, 1]
+* [9, 2, 0, 7]  -> [7, 0, 2, 9]

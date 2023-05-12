@@ -53,7 +53,11 @@ def name_shuffler(str)
 end
 
 ## Q7 ##
-
 def reverse_list list
   list.reverse
+end
+
+## Q8 ##
+def shortcut(s)
+  s.delete("aeiou")
 end

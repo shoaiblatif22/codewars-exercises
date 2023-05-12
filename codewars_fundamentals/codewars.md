@@ -46,3 +46,10 @@ The input to the function will be an array of three distinct numbers (Haskell: a
 For example:
 
 gimme([2, 3, 1]) => 0
+
+## Q6 ##
+Write a function that returns a string in which firstname is swapped with last name.
+
+Example(Input --> Output)
+
+"john McClane" --> "McClane john"

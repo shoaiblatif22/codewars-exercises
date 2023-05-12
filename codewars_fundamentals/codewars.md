@@ -36,3 +36,13 @@ For example, if the parameters passed are ([2, 2, 3], [5, 4, 1]), the volume of 
 Your function will be tested with pre-made examples as well as random ones.
 
 If you can, try writing it in one line of code.
+
+## Q5 ##
+
+As a part of this Kata, you need to create a function that when provided with a triplet, returns the index of the numerical element that lies between the other two elements.
+
+The input to the function will be an array of three distinct numbers (Haskell: a tuple).
+
+For example:
+
+gimme([2, 3, 1]) => 0

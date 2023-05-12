@@ -61,3 +61,13 @@ In this kata you will create a function that takes in a list and returns a list 
 Examples (Input -> Output)
 * [1, 2, 3, 4]  -> [4, 3, 2, 1]
 * [9, 2, 0, 7]  -> [7, 0, 2, 9]
+
+## Q8 ##
+
+Create a function called shortcut to remove the lowercase vowels (a, e, i, o, u ) in a given string.
+
+Examples
+"hello"     -->  "hll"
+"codewars"  -->  "cdwrs"
+"goodbye"   -->  "gdby"
+"HELLO"     -->  "HELLO"

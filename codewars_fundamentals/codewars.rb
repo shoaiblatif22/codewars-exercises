@@ -51,3 +51,9 @@ end
 def name_shuffler(str)
   str.split(" ").reverse.join(" ")
 end
+
+## Q7 ##
+
+def reverse_list list
+  list.reverse
+end

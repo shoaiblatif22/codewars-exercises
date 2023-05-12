@@ -38,3 +38,11 @@ def find_difference(a, b)
   
   volume_difference = (volume_a - volume_b).abs 
 end
+
+## Q5 ##
+def gimme(input_array)                                
+  arr = input_array                                 #Saves the input array to a variable
+  sortedArr = arr.sort                              #Array is then sorted and assigned another variable
+  index = input_array.index(sortedArr[1])           #Finds and saves the index of the middle number
+  return index                                      #Returns index
+end

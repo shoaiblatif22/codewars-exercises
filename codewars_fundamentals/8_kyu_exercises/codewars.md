@@ -99,3 +99,12 @@ If there is enough space, return 0, and if there isn't, return the number of pas
 Usage Examples:
 cap = 10, on = 5, wait = 5 --> 0 # He can fit all 5 passengers
 cap = 100, on = 60, wait = 50 --> 10 # He can't fit 10 of the 50 waiting
+
+## Q11 ##
+
+Convert number to reversed array of digits
+Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
+
+Example(Input => Output):
+35231 => [1,3,2,5,3]
+0 => [0]

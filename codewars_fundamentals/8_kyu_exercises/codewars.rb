@@ -75,3 +75,8 @@ def enough(cap, on, wait)
     (on + wait) - cap
   end
 end
+
+## Q11 ##
+def digitize(arr)
+  arr.to_s.split('').reverse.map { |i| i.to_i }
+end

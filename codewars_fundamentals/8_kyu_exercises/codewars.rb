@@ -66,3 +66,12 @@ end
 def remove(s)
   s.chomp("!")
 end
+
+## Q10 ##
+def enough(cap, on, wait)
+  if cap >= on + wait
+    0
+  else
+    (on + wait) - cap
+  end
+end

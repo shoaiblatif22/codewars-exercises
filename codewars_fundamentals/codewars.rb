@@ -61,3 +61,8 @@ end
 def shortcut(s)
   s.delete("aeiou")
 end
+
+## Q9 ##
+def remove(s)
+  s.chomp("!")
+end

@@ -108,3 +108,15 @@ Given a random non-negative number, you have to return the digits of this number
 Example(Input => Output):
 35231 => [1,3,2,5,3]
 0 => [0]
+
+## Q12 ##
+Clock shows h hours, m minutes and s seconds after midnight.
+
+Your task is to write a function which returns the time since midnight in milliseconds.
+
+Example:
+h = 0
+m = 1
+s = 1
+
+result = 61000

@@ -80,3 +80,9 @@ end
 def digitize(arr)
   arr.to_s.split('').reverse.map { |i| i.to_i }
 end
+
+## Q12 ##
+def past(h, m, s)
+  (h * 3600000) + (m * 60000) + (s * 1000)
+end
+  

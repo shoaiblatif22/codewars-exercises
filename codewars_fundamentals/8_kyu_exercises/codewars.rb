@@ -91,3 +91,7 @@ def close_compare(a, b, margin)
   p (a-b).abs <= margin ? 0 : a <=> b
 end
   
+## Q14 ##
+def pipe_fix(nums)
+  (nums.min..nums.max).to_a
+end

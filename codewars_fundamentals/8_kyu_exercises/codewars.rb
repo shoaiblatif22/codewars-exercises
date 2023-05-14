@@ -85,4 +85,9 @@ end
 def past(h, m, s)
   (h * 3600000) + (m * 60000) + (s * 1000)
 end
+
+## Q13 ##
+def close_compare(a, b, margin)
+  p (a-b).abs <= margin ? 0 : a <=> b
+end
   

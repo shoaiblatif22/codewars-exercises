@@ -95,3 +95,8 @@ end
 def pipe_fix(nums)
   (nums.min..nums.max).to_a
 end
+
+## Q15 ##
+def index(array, n)
+  array[n] ** n rescue -1
+end

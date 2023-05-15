@@ -100,3 +100,8 @@ end
 def index(array, n)
   array[n] ** n rescue -1
 end
+
+## Q16 ##
+def sum(numbers)
+  num * num
+end

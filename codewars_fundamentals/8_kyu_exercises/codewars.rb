@@ -140,3 +140,10 @@ end
 # the method would return 7, which represents the total number of points earned by all teams:
 # 3 points for the first team (who won the first game), 1 point for each team in the second game (which was a draw),
 # and 3 points for the second team (who won the third game).
+
+## Q19 ##
+def litres (time)
+  hours = time
+  litres = (hours * 0.5).floor
+  return litres
+end

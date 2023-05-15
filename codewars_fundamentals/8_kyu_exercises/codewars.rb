@@ -102,7 +102,7 @@ def index(array, n)
 end
 
 ## Q16 ##
-def sum(numbers)
+def sum(num)
   num * num
 end
 
@@ -110,3 +110,4 @@ end
 def boolean_to_string(b)
   b.to_s
 end
+

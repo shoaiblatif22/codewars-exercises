@@ -105,3 +105,8 @@ end
 def sum(numbers)
   num * num
 end
+
+## Q17 ##
+def boolean_to_string(b)
+  b.to_s
+end

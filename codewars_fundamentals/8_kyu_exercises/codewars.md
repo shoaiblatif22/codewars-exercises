@@ -175,3 +175,8 @@ array = [1, 2, 3] and N = 3, but N is outside of the array, so the result is -1.
 
 ## Q16 ##
 Now you have to write a function that takes an argument and returns the square of it.
+
+## Q17 ##
+Implement a function which convert the given boolean value into its string representation.
+
+Note: Only valid inputs will be given.

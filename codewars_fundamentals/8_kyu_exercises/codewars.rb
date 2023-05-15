@@ -53,7 +53,7 @@ def name_shuffler(str)
 end
 
 ## Q7 ##
-def reverse_list list
+def reverse_list(list)
   list.reverse
 end
 
@@ -111,3 +111,32 @@ def boolean_to_string(b)
   b.to_s
 end
 
+## Q18 KATA FORFEITED EXPLANATION PROVIDED UNDERNEATH##
+def points(games)
+  games.sum { |score| [1, 3, 0][score[0] <=> score[2]] }
+end
+#This Ruby code defines a method called points that takes
+#An array of strings representing game scores as an argument.
+# Each score string is expected to be in the format "X:Y", where X and Y are integers
+# representing the number of goals scored by each team.
+#
+# The method uses the sum method to iterate over each score in
+# the games array and calculate the points earned by each team.
+# The points system used is a standard one for soccer (or football), where a win earns 3 points,
+# a draw earns 1 point, and a loss earns 0 points.
+#
+# The sum method uses a block to convert each score into a point value.
+# The block takes each score string, converts it into an array of integers using the split method,
+# and then compares the first and third elements of the array using the <=> operator.
+# This operator returns -1 if the first element is less than the third (indicating a loss for the first team),
+# 0 if they are equal (a draw), and 1 if the first element is greater (a win).
+#
+# The block then uses this comparison result as an index into an array [1, 3, 0],
+# which returns the corresponding point value.
+# This point value is then summed up by the sum method to give the total number of points
+# earned by all teams in the games array.
+#
+# So, for example, if games was ["3:1", "0:0", "2:4"],
+# the method would return 7, which represents the total number of points earned by all teams:
+# 3 points for the first team (who won the first game), 1 point for each team in the second game (which was a draw),
+# and 3 points for the second team (who won the third game).

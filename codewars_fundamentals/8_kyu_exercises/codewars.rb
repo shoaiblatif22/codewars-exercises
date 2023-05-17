@@ -147,3 +147,12 @@ def litres (time)
   litres = (hours * 0.5).floor
   return litres
 end
+
+## Q20 ##
+def find_multiples(integer, limit)
+  result = []
+  (integer..limit).step(integer) do |num|
+    result << num
+  end
+  result
+end
